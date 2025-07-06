@@ -1,0 +1,18 @@
+services:
+  whatsapp:
+    image: aldinokemal2104/go-whatsapp-web-multidevice
+    container_name: whatsapp_2
+    restart: always
+    ports:
+      - "3012:3000"
+    volumes:
+      - whatsapp_2:/app/storages
+    environment:
+      - APP_BASIC_AUTH=${APP_BASIC_AUTH}
+      - APP_PORT=${APP_PORT}
+      - APP_DEBUG=true
+      - APP_OS=${APP_OS}
+      - APP_ACCOUNT_VALIDATION=false
+
+volumes:
+  whatsapp_2:

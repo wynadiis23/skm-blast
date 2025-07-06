@@ -1,0 +1,28 @@
+{
+  "name": "skm-blast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx --watch src/server.ts",
+    "dev": "dotenv -e .env -- bash -c 'docker build -t audit-sap-bridge . && docker run --rm -e PORT=${PORT} -e BACKEND_HOST=${BACKEND_HOST} -e SUPABASE_AUTH_VERIFIER_HOST=${SUPABASE_AUTH_VERIFIER_HOST} -p ${PORT}:${PORT} audit-sap-bridge'",
+    "test": "echo \"Error: no test specified. Please create one first\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/pino": "^7.0.5",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "pino": "^9.7.0",
+    "pino-pretty": "^13.0.0",
+    "pino-tee": "^0.3.0"
+  }
+}
