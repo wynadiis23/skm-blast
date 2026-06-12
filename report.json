@@ -1,0 +1,52 @@
+{
+    "not_on_whatsapp": [
+        {
+            "no": 5,
+            "nama": "Claudia Arima Jesica",
+            "jabatan": "Mahasiswa FISIP",
+            "no_handphone": "6287055269324"
+        },
+        {
+            "no": 7,
+            "nama": "Kristina Aurora N. Labre",
+            "jabatan": "Mahasiswa FISIP",
+            "no_handphone": "628133919413"
+        },
+        {
+            "no": 8,
+            "nama": "Ferning Dodi Jane",
+            "jabatan": "Mahasiswa Fisi",
+            "no_handphone": "628134068496"
+        },
+        {
+            "no": 10,
+            "nama": "Ida Bagus P. Indra P.",
+            "jabatan": "Mahasiswa Fisi",
+            "no_handphone": "6282197403356"
+        },
+        {
+            "no": 13,
+            "nama": "M. Kadir Katika Puji",
+            "jabatan": "Mahasiswa Fisi",
+            "no_handphone": "6281037567106"
+        },
+        {
+            "no": 15,
+            "nama": "Muhammad Fauzan",
+            "jabatan": "Mahasiswa FISIP",
+            "no_handphone": "62897059577"
+        },
+        {
+            "no": 17,
+            "nama": "Ulik Artini",
+            "jabatan": "Fisip",
+            "no_handphone": "628221582055"
+        },
+        {
+            "no": 18,
+            "nama": "RIOYSICS dan Karee",
+            "jabatan": "Fisip",
+            "no_handphone": "628223416500"
+        }
+    ]
+}
